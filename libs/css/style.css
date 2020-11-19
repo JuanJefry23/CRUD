@@ -1,0 +1,21 @@
+body {
+    width: 720px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 720px;
+}
+
+img {
+    width: 20px;
+    height: 15px;
+}
+
+#listaProductos {
+    width: 715px;
+}

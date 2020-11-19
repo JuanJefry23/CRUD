@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="libs/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="libs/css/style.css" type="text/css">
+</head>
+
+<body>
+    <h1>Catalogo de productos</h1>
+
+    <div class="container">
+
+        <div class="row">
+            <form action="">
+                <fieldset>
+                    <legend>PRODUCTO</legend>
+                    <input type="text" class="form-control" id="item">
+                    <br />
+                    <legend>PRECIO</legend>
+                    <input type="number" step="0.01" class="form-control" id="precio">
+                    <br />
+                    <button type="button" id="crear" class="btn btn-success">Crear Tabla</button>
+                    <button type="button" id="insertar" class="btn btn-success">Insertar Registro</button>
+                    <button type="button" id="modificar" class="btn btn-danger">Modificar Registro</button>
+                    <button type="button" id="listar" class="btn btn-success">Mostrar/Actualizar</button>
+                    <button type="button" id="borrarTodo" class="btn btn-danger">ELIMINAR TODO</button>
+                </fieldset>
+
+            </form>
+            <hr>
+            <h3>LISTA DE PRODUCTOS</h3>
+            <table class="table table-borderer table-hover" id="listaProductos"></table>
+
+        </div>
+    </div>
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+    <h3>Como funciona este CRUD</h3>
+    <ol>
+        <li>Hacer click en el boton "Crear tabla"</li>
+        <li>Ingresar en el campo de "producto" el producto que se quiere mostrar en la tabla(ejm:cuaderno) y en el campo de "precio" ingresar el precio del producto (ejm: 150)</li>
+        <li>Una vez ingresado los datos, hacer click en el boton "Insertar Registro"</li>
+        <li>Por otra parte tenemos el boton de "Mostrar/Actualizar" que como su nombre lo dice, muestra los registros ingresados y actualiza </li>
+        <li>Tambien tenemos el boton de "ELIMINAR TODO" que como el nombre lo indica elimina todos los registros ingresados</li>
+        <li>Ademas cuando se ingresa un registro en la fila de este tendremos dos botones uno para "Editar" dicho registro y otra opcion para "Eliminar" dicho registro, en el caso de querer editar el registro hacemos click en el boton editar en los campos
+            de producto y precio nos aparecera los valores correspondientes, basta con borrarlos y escribir los nuevos valores de cada uno, una vez hecho eso hacer click en el boton "Modificar Registro"</li>
+    </ol>
+    <p> Tecnologias usadas en este proyecto: Html + Css + JScript</p>
+    <p>Base de datos: Sql</p>
+    <p>Framework utilizado: Bootstrap</p>
+    <p>Libreria de JScript utilizada: jQuery</p>
+
+
+
+
+
+    <script src="libs/js/jquery.js" type="text/javascript"></script>
+    <script src="libs/js/app.js" type="text/javascript"></script>
+</body>
+
+</html>
